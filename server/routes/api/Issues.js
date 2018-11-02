@@ -52,7 +52,7 @@ routes.put("/issues/issue/:id/update", (req, res) => {
   });
 });
 
-routes.delete("issues/issue/:id/delete", (req, res) => {
+routes.delete("/issues/issue/:id/delete", (req, res) => {
   let deletedIssueId = req.params.id;
   IssuesModel.findByIdAndRemove({ _id: deletedIssueId }, (err, issue) => {
     if (err) {
