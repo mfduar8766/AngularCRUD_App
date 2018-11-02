@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouteModule } from './route/route.module';
 import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
 
 import { MatToolbarModule } from '@angular/material';
 
@@ -23,7 +24,8 @@ import { EditComponent } from './components/edit/edit.component';
     BrowserAnimationsModule,
     RouteModule,
     RouterModule,
-    MatToolbarModule
+    MatToolbarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
