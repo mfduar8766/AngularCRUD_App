@@ -4,8 +4,19 @@ import { RouteModule } from './route/route.module';
 import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
-import { MatToolbarModule } from '@angular/material';
+import { MatToolbarModule,
+  MatFormFieldModule,
+  MatInputModule,
+  MatOptionModule,
+  MatSelectModule,
+  MatIconModule,
+  MatButtonModule,
+  MatCardModule,
+  MatTableModule,
+  MatDividerModule,
+  MatSnackBarModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { ListComponent } from './components/list/list.component';
@@ -25,7 +36,18 @@ import { EditComponent } from './components/edit/edit.component';
     RouteModule,
     RouterModule,
     MatToolbarModule,
-    HttpClientModule
+    MatFormFieldModule,
+    MatInputModule,
+    MatOptionModule,
+    MatSelectModule,
+    MatIconModule,
+    MatButtonModule,
+    MatCardModule,
+    MatTableModule,
+    MatDividerModule,
+    MatSnackBarModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

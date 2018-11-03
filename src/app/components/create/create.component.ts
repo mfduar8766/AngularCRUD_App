@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IssueService } from '../../issue.service';
+import { IssueService } from '../../../Services/issue.service';
 
 @Component({
   selector: 'app-create',

@@ -3,6 +3,8 @@
     "rules": {
       "whitespace":false,
       "no-trailing-whitespace":false,
+      "comment-format":false,
+      "max-line-length":false,
         "directive-selector": [
             true,
             "attribute",
