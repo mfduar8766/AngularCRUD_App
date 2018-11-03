@@ -5,3 +5,6 @@ The purpose of this app is to create a application that allows users to submit i
   Here is where all the HTTP Requestes are made.
   ![gitsmall](services.png)
   
+# Routes
+This app is a single page application, so I used Angulars router module to create the respected routes.
+![gitsmall](routes.png)
