@@ -40,6 +40,6 @@ export class IssueService {
   }
 
   deleteIssueById(id) {
-    return this.http.delete(`${this.URI}/issues/issue/${id}/delete`);
+    return this.http.delete(`${this.URI}/api/issues/issue/${id}/delete`);
   }
 }

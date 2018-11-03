@@ -4,7 +4,7 @@ import { RouteModule } from './route/route.module';
 import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
-import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 import { MatToolbarModule,
   MatFormFieldModule,
@@ -47,6 +47,7 @@ import { EditComponent } from './components/edit/edit.component';
     MatDividerModule,
     MatSnackBarModule,
     HttpClientModule,
+    ReactiveFormsModule,
     FormsModule
   ],
   providers: [],
